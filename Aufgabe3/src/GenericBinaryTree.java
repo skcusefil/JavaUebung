@@ -19,7 +19,7 @@ public class GenericBinaryTree<T extends Comparable<T>>{
         }
 
         public  boolean contains(T value){
-            return  this.value == value;
+            return value.compareTo(this.value)>0;
         }
 
         @Override public String toString(){

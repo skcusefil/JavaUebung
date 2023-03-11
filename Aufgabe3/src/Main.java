@@ -13,5 +13,6 @@ public class Main {
         tree2.add("ufo");
 
         System.out.println(tree2);
+        System.out.println(tree2.contains("zab"));
     }
 }
