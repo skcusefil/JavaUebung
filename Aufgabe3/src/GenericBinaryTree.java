@@ -18,6 +18,9 @@ public class GenericBinaryTree<T extends Comparable<T>>{
             }
         }
 
+        //c) Was mussen Sie tun, damit die Methode ¨ contains im generischen Baum auch fur den ¨
+        //Datentyp Complex funktioniert?
+        // Methon compareTo benutzen
         public  boolean contains(T value){
             return value.compareTo(this.value)>0;
         }

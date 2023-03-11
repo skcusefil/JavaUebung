@@ -5,6 +5,7 @@ public class Main {
         tree.add(2);
         tree.add(10);
         tree.add(5);
+        System.out.println(tree);
         System.out.println(tree.contains(2));
 
         GenericBinaryTree<String> tree2 = new GenericBinaryTree<String>();
