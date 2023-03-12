@@ -11,5 +11,12 @@ public class Main {
         System.out.println("BinaryTree contains 1 ? :"+binaryTree.contains(1));
         System.out.println("BinaryTree contains 5 ? :"+binaryTree.contains(5));
 
+//
+//        var genericBinaryTree = new GenericBinaryTree<String>();
+//        genericBinaryTree.add("azbb");
+//        genericBinaryTree.add("acdb");
+//        genericBinaryTree.add("acbb");
+//        genericBinaryTree.add("uabb");
+//        System.out.println("GenericBinaryTree values:"+genericBinaryTree);
     }
 }
