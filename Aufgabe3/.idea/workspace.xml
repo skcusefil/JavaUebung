@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd8f68db-7aa1-4140-8ec8-138ca73ae8f0" name="Changes" comment="edit compare value with answer how to make the method works">
-      <change afterPath="$PROJECT_DIR$/../Aufgabe2/src/GenericBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericComplex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aufgabe2/out/production/Aufgabe2/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Aufgabe2/out/production/Aufgabe2/BinaryTree.class" afterDir="false" />
+    <list default="true" id="fd8f68db-7aa1-4140-8ec8-138ca73ae8f0" name="Changes" comment="add Aufgabe1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/BinaryTreeFromAufgabe2$Complex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/BinaryTreeFromAufgabe2$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/BinaryTreeFromAufgabe2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree$Complex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree$Complex.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aufgabe3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeFromAufgabe2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenericBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -36,11 +26,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -53,9 +43,6 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Msvml96yaYpQaVPg6Cchlm4FsQ" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -114,7 +101,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/GenericBinaryTree.java</url>
-          <line>2</line>
+          <line>21</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
