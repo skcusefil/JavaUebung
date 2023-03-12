@@ -52,7 +52,6 @@ public  class BinaryTree{
 //        String result = "";
 //        if(root != null) result = root.toString();
 //        return result;
-        String result = "";
         if(root != null) complex = new Complex(root);
         return complex.toString();
     }
