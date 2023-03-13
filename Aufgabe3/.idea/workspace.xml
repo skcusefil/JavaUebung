@@ -4,27 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<<<< Temporary merge branch 1
-    <list default="true" id="fd8f68db-7aa1-4140-8ec8-138ca73ae8f0" name="Changes" comment="edit compare value with answer how to make the method works" />
-=========
     <list default="true" id="fd8f68db-7aa1-4140-8ec8-138ca73ae8f0" name="Changes" comment="edit compare value with answer how to make the method works">
-      <change afterPath="$PROJECT_DIR$/../Aufgabe2/src/GenericBinaryTree.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Complex.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/GenericComplex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aufgabe2/out/production/Aufgabe2/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Aufgabe2/out/production/Aufgabe2/BinaryTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/BinaryTreeFromAufgabe2$Complex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/BinaryTreeFromAufgabe2$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/BinaryTreeFromAufgabe2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree$Complex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree$Complex.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree$TreeNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aufgabe3/GenericBinaryTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Aufgabe3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aufgabe3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeFromAufgabe2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenericBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
->>>>>>>>> Temporary merge branch 2
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +57,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Desktop/Studium/JAPR01/JavaUebung/Aufgabe2"
+    "last_opened_file_path": "E:/Desktop/Studium/JAPR01/JavaUebung/Aufgabe3"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

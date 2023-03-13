@@ -1,11 +1,11 @@
-public class GenericBinaryTree<T extends Comparable<T>>{
+public class GenericComplex <Complex extends Comparable<Complex>> {
     class TreeNode{
-        T value;
+        Complex value;
         TreeNode left,right;
-        public TreeNode(T value){
+        public TreeNode(Complex value){
             this.value = value;
         }
-        public  void add(T value){
+        public  void add(Complex value){
             if(value.compareTo(this.value)>0){
                 if(right == null) right = new TreeNode(value);
                 else right.add(value);
@@ -15,9 +15,8 @@ public class GenericBinaryTree<T extends Comparable<T>>{
             }
         }
 
-        //b) Erganzen Sie nun auch in der Klasse ¨ GenericBinaryTree eine Methode
-        //public boolean contains(T value)
-        public boolean contains(T value, TreeNode root){
+
+        public boolean contains(Complex value, TreeNode root){
             if(value.compareTo(root.value) == 0){
                 return true;
             }else if(value.compareTo(root.value)<0){
@@ -39,17 +38,18 @@ public class GenericBinaryTree<T extends Comparable<T>>{
     }
 
     TreeNode root = null;
-
-    public void add (T value){
-        if(root == null) root = new TreeNode(value);
-        else root.add(value);
+    Complex complex = null;
+    public void add (Complex value){
+        complex = value;
+        if(root == null) root = new TreeNode(complex);
+        else root.add(complex);
     }
 
-    public void add(T[] values){
-        for(T value:values) add(value);
+    public void add(Complex[] values) {
+        for (Complex value : values) add(value);
     }
 
-    public boolean contains(T value){
+    public boolean contains(Complex value){
         return root.contains(value, root);
     }
 
@@ -58,5 +58,4 @@ public class GenericBinaryTree<T extends Comparable<T>>{
         if(root != null) result = root.toString();
         return  result;
     }
-
 }
