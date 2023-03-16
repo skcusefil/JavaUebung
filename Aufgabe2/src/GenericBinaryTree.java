@@ -23,28 +23,10 @@ public class GenericBinaryTree<T extends Comparable<T>>{
            if(right != null) result += right.toString();
            return  result;
        }
+
    }
 
-    class Complex {
-        double real = 5;
-        double imaginary = 7;
-
-        public Complex(double real, double imaginary) {
-            this.real = real;
-            this.imaginary = imaginary;
-        }
-
-        public Complex(double real) {
-            this(real, 0);
-        }
-
-        public double abs() {
-            return Math.sqrt(real * real);
-        }
-    }
-
    TreeNode root = null;
-
    public void add (T value){
        if(root == null) root = new TreeNode(value);
        else root.add(value);

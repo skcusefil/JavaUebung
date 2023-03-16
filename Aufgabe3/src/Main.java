@@ -26,24 +26,23 @@ public class Main {
 
         System.out.println("==========================");
         System.out.println("==========================");
-        var complex = new GenericComplex();
+
         var value1 = new Complex(7,2);
         var value2 = new Complex(3,2);
         var value3 = new Complex(1,5);
         var value4 = new Complex(4,2);
 
-        complex.add(value1.abs());
-        complex.add(value2.abs());
-        complex.add(value3.abs());
-        complex.add(value4.abs());
-
-        var falseValue = new Complex(2,2).abs();
-        System.out.println("GenericComplexTree values:"+complex);
-        System.out.println(String.format("GenericComplexTree contains 2+2i %s ?: %s",falseValue, complex.contains(falseValue)));
-        System.out.println(String.format("GenericComplexTree contains 7+2i %s ?: %s",value1.abs(), complex.contains(value1.abs())));
+        var complex = new GenericBinaryTree<Complex>();
+        complex.add(value1);
+        complex.add(value2);
+        complex.add(value3);
+        complex.add(value4);
+        System.out.println(complex);
+        System.out.println("GenericBinaryTree Complex contains 1.0*i*1.0 ?:"+complex.contains(new Complex(1,1)));
+        System.out.println("GenericBinaryTree Complex contains 7.0*i*2.0 ?:"+complex.contains(value1));
 
         //c) Was mussen Sie tun, damit die Methode ¨ contains im generischen Baum auch fur den ¨
         //Datentyp Complex funktioniert?
-        //Wert von Methode abs() als nummer Type liefern.
+
     }
 }

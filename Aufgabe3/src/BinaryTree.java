@@ -20,14 +20,14 @@ public class BinaryTree {
 
         //Ergänzen in der Klasse BinaryTree eine Methode
         //public void contains(int value)
-        public boolean contains(int value, TreeNode node){
-            if(node == null) return  false;
+        public boolean contains(int value, TreeNode root){
+            if(root == null) return  false;
 
-            if(value == node.value) return true;
+            if(value == root.value) return true;
 
-            return value < node.value
-                    ? contains(value,node.left)
-                    : contains(value, node.right);
+            return value < root.value
+                    ? contains(value,root.left)
+                    : contains(value, root.right);
         }
         @Override public String toString(){
             String result = "";
