@@ -121,8 +121,6 @@ public class TaskScheduler {
             }
         }
 
-        System.out.println(machines.stream().count());
-
         for(var machine:machines){
             System.out.println(machine);
         }
